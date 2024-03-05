@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "939847147860",
+    "project_id": "sahyogi-40fa3",
+    "storage_bucket": "sahyogi-40fa3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939847147860:android:9cfddecb993ecfe93668c1",
+        "android_client_info": {
+          "package_name": "com.example.sahyogii"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA09RMhmcOnTbPEfSRitkivYJdAOEcRhf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
