@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:sahyogii/firebase_api.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:sahyogii/screens/signin_screen.dart';
 import 'firebase_options.dart';
 
@@ -11,6 +12,8 @@ Future<void> main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
   await FirebaseApi().initNotifications();
+  await Permission.activityRecognition.request();
+  await Permission.location.request();
   runApp(const MyApp());
 }
 
